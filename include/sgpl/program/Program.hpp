@@ -138,7 +138,7 @@ public:
     // so approximate with the poisson distribution instead
     // they're similar-ish, e.g., https://www.researchgate.net/figure/Poisson-versus-binomial-distribution-from-number-of-heads-in-a-coin-toss-The-Poisson_fig3_255717571
     // (they become more similar for large n)
-    const size_t n_muts = sgpl::tlrand.Get().GetRandPoisson(
+    const size_t n_muts = sgpl::tlrand.Get().GetPoisson(
       size_bytes() * CHAR_BIT,
       p_bit_toggle
     );
