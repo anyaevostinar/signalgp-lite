@@ -4,5 +4,5 @@
   shallow = true
 [submodule "third-party/conduit"]
   path = third-party/conduit
-  url = https://github.com/anyaevostinar/conduit.git
+	url = https://github.com/anyaevostinar/conduit.git
   shallow = true
